@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.navbar-light .nav-link {
+  padding: 25px 10px;
+  color: #343a40;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-light:hover {
+  color: #0BCEAF;
+}
+
+/*======================/* section general======================*/
+section {
+  padding-top: 100px;
+}
+
+section h2 {
+  color: #45505b;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+section h3 {
+  color: #45505b;
+}
+
+/*====================================================*/
+.header-icon i, .footer-icon i {
+  background-color: #ffffff;
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn {
+  border: 2px solid #1d69f7;
+  background-color: #ffffff;
+}
+
+.btn-whit {
+  border: 2.4px solid #ffffff;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 70px;
+  -webkit-border-radius: 70px;
+  -moz-border-radius: 70px;
+  -ms-border-radius: 70px;
+  -o-border-radius: 70px;
+}
+
+/*=================================================*/
+.btn-blue {
+  border: 2.4px solid blue;
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 90px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+}
+
+.btn-blue:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/*=================== Start services===================*/
+.service-icon {
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+
+.service-box {
+  -webkit-box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.service-box:hover {
+  -webkit-box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+          box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+}
+
+/*=================== Start service ===================*/
+/*=================== Portfolio =======================*/
+.work-box:hover img {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+}
+
+.work-box:hover img {
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}
+
+.work-content .w-demo {
+  font-size: 2.5rem;
+  float: right;
+}
+
+/*=================footer=======================*/
+/*# sourceMappingURL=test.css.map */
